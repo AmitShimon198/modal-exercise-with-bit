@@ -9,12 +9,6 @@
  */
 
 {
-    "ui-button": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "my-scope/ui-button"
-    },
     "ui/button": {
         "scope": "",
         "version": "",
