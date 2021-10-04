@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import classes from './modal.module.css';
 
 type ModalProps = {
-  children: JSX.Element,
+  children: JSX.Element[],
   isOpen: boolean,
   onClose: any,
   portalElement: any,
@@ -34,7 +34,6 @@ const ModalOverlay = ({ children, onClose, onConfirm }: ModalOverlayProps) => {
         <div onClick={onButtonClick}>X</div>
       </div>
       <div className={classes.content}>{children}</div>
-      <div onClick={onConfirm}>Confirm</div>
     </div>
   );
 };

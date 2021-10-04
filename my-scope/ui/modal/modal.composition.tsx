@@ -24,9 +24,10 @@ export const BasicModal = () => {
     toggleExternally()
   }
   return (<div >
-    <button onClick={toggleExternally}>Open externally</button>
+    <button onClick={toggleExternally}>Open Modal</button>
     <Modal portalElement={portalElement} onConfirm={onConfirm} onClose={toggleExternally} isOpen={openExternally} >
-      <h1>Hi</h1>
+      <h1>Hi From modal</h1>
+      <div onClick={onConfirm}>Confirm</div>
     </Modal>
   </div>
   );
