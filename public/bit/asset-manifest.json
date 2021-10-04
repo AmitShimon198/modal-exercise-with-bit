@@ -1,0 +1,4 @@
+{
+  "files": "{\"main.js\":\"/static/js/main.1b62a393.js\",\"runtime-main.js\":\"/static/js/runtime-main.f8aedb2c.js\",\"static/css/629.c42056ca.css\":\"/static/css/629.c42056ca.css\",\"static/js/629.dcf68e78.js\":\"/static/js/629.dcf68e78.js\",\"workbox-4043f1fd.js\":\"/workbox-4043f1fd.js\",\"service-worker.js\":\"/service-worker.js\",\"index.html\":\"/index.html\"}",
+  "entrypoints": "[\"static/js/runtime-main.f8aedb2c.js\",\"static/css/629.c42056ca.css\",\"static/js/629.dcf68e78.js\",\"static/js/main.1b62a393.js\"]"
+}
