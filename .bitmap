@@ -15,5 +15,11 @@
         "mainFile": "index.ts",
         "rootDir": "my-scope/ui/button"
     },
+    "ui/modal": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "my-scope/ui/modal"
+    },
     "$schema-version": "14.9.0"
 }
