@@ -4,6 +4,6 @@ import { BasicModal } from './modal.composition';
 
 it('should render with the correct text', () => {
   const { getByText } = render(<BasicModal />);
-  const rendered = getByText('hello from Modal');
+  const rendered = getByText('Open Modal');
   expect(rendered).toBeTruthy();
 });

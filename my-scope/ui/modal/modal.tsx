@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { Hr } from '@reuse-react-components/experimenting.ui.hr';
 import classes from './modal.module.css';
 
-type ModalProps = {
+export type ModalProps = {
   children: JSX.Element | JSX.Element[] | string,
   isOpen: boolean,
   mainContentClassName?: string,

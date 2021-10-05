@@ -1,0 +1,23 @@
+[
+  {
+    "id": {
+      "scope": "reuse-react-components.experimenting",
+      "name": "ui/button"
+    },
+    "head": "6efeeb46a9e5ae1a6261e6d4859254492ba1b92c"
+  },
+  {
+    "id": {
+      "scope": "reuse-react-components.experimenting",
+      "name": "ui/hr"
+    },
+    "head": "8a86d7c035d0d3e6a031999b2af7904532fbe07c"
+  },
+  {
+    "id": {
+      "scope": "reuse-react-components.experimenting",
+      "name": "ui/modal"
+    },
+    "head": "125c9d40fc59d4d19c811e22bdb0d9f0c191cfd8"
+  }
+]

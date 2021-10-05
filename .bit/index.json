@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "id": {
+        "scope": null,
+        "name": "ui/button"
+      },
+      "isSymlink": true,
+      "hash": "6e10f814d61b688ebc8b59fb617ad611ff01d70c"
+    },
+    {
+      "id": {
+        "scope": null,
+        "name": "ui/hr"
+      },
+      "isSymlink": true,
+      "hash": "729c45a597078a8dbe90a1fbde077aa93553a1c4"
+    },
+    {
+      "id": {
+        "scope": null,
+        "name": "ui/modal"
+      },
+      "isSymlink": true,
+      "hash": "ad24973a24c95a87198b2201854bb7e326104dda"
+    },
+    {
+      "id": {
+        "scope": "reuse-react-components.experimenting",
+        "name": "ui/button"
+      },
+      "isSymlink": false,
+      "hash": "b1bbc87a94f115de3cf582eeb5fa5cf703782d7f"
+    },
+    {
+      "id": {
+        "scope": "reuse-react-components.experimenting",
+        "name": "ui/hr"
+      },
+      "isSymlink": false,
+      "hash": "e0ba4340f9e7fae74646cfb2ca3663394a1d7893"
+    },
+    {
+      "id": {
+        "scope": "reuse-react-components.experimenting",
+        "name": "ui/modal"
+      },
+      "isSymlink": false,
+      "hash": "dd6feadc3f9273ac0731acafe937b5e57ec69bb5"
+    }
+  ],
+  "lanes": []
+}
