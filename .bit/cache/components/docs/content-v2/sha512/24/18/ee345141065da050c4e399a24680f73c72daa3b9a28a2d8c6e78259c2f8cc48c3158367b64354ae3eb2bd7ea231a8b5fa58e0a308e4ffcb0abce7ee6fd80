@@ -1,0 +1,1 @@
+[{"filePath":"button.tsx","name":"Button","description":"","properties":[{"name":"children","description":"","required":true,"type":"JSX.Element | JSX.Element[] | string"},{"name":"onClick","description":"","required":true,"type":"ReactMouseEventHandler"}],"access":"public","methods":[],"args":[],"examples":[]}]

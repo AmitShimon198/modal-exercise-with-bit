@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Modal } from './modal';
-
-
+import { Button } from '@reuse-react-components/experimenting.ui.button';
 
 export const BasicModal = () => {
   const [openExternally, setOpenExternally] = useState<boolean>(false);
-  const [portalElement, setPortalElement]=useState<any>(false)
+  const [portalElement, setPortalElement] = useState<any>(false)
   useEffect(() => {
     let div = document.createElement('div');
     div.id = 'overlays';
@@ -15,7 +14,8 @@ export const BasicModal = () => {
       document.getElementById("overlays").remove();
       setPortalElement(undefined);
     }
-  },[])
+  }, [])
+
   const toggleExternally = () => {
     setOpenExternally(prevState => !prevState)
   }
@@ -24,10 +24,10 @@ export const BasicModal = () => {
     toggleExternally()
   }
   return (<div >
-    <button onClick={toggleExternally}>Open Modal</button>
-    <Modal portalElement={portalElement} onConfirm={onConfirm} onClose={toggleExternally} isOpen={openExternally} >
+    <Button onClick={toggleExternally}><span>Open Modal</span></Button>
+    <Modal modalTitle={'Example modal'} portalElement={portalElement} onClose={toggleExternally} isOpen={openExternally} >
       <h1>Hi From modal</h1>
-      <div onClick={onConfirm}>Confirm</div>
+      <Button onClick={onConfirm}><span>Confirm</span></Button>
     </Modal>
   </div>
   );

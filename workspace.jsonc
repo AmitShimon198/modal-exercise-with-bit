@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "my-scope"
+    "defaultScope": "reuse-react-components.experimenting"
   },
   /**
    * main configuration for component dependency resolution.

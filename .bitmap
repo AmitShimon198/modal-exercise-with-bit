@@ -15,6 +15,12 @@
         "mainFile": "index.ts",
         "rootDir": "my-scope/ui/button"
     },
+    "ui/hr": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "my-scope/ui/hr"
+    },
     "ui/modal": {
         "scope": "",
         "version": "",

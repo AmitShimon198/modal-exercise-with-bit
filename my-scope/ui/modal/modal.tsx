@@ -1,19 +1,22 @@
 // import React, { } from 'react';
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
+import { Hr } from '@reuse-react-components/experimenting.ui.hr';
 import classes from './modal.module.css';
 
 type ModalProps = {
-  children: JSX.Element[],
+  children: JSX.Element | JSX.Element[] | string,
   isOpen: boolean,
+  mainContentClassName?: string,
   onClose: any,
+  modalTitle: string,
   portalElement: any,
-  onConfirm: React.MouseEventHandler
 }
 type ModalOverlayProps = {
-  children: JSX.Element,
+  children: JSX.Element | JSX.Element[] | string,
+  modalTitle: string,
   onClose: React.MouseEventHandler,
-  onConfirm: React.MouseEventHandler
+  mainContentClassName?: string;
 }
 
 type BackdropProps = {
@@ -24,16 +27,20 @@ const Backdrop = ({ onClose }: BackdropProps) => {
   return <div className={classes.backdrop} onClick={onClose} />;
 };
 
-const ModalOverlay = ({ children, onClose, onConfirm }: ModalOverlayProps) => {
+const ModalOverlay = ({ children, onClose, mainContentClassName = '', modalTitle = '' }: ModalOverlayProps) => {
   const onButtonClick: React.MouseEventHandler = (event) => {
     onClose?.(event);
   }
   return (
     <div className={classes.modal}>
-      <div>
-        <div onClick={onButtonClick}>X</div>
+      <div className={classes.headerContainer}>
+        <div className={classes.title}>{modalTitle}</div>
+        <div className={classes.button} onClick={onButtonClick}>&#10006;</div>
       </div>
-      <div className={classes.content}>{children}</div>
+      <Hr />
+      <div className={mainContentClassName}>
+        <div className={classes.content}>{children}</div>
+      </div>
     </div>
   );
 };
@@ -41,10 +48,11 @@ const ModalOverlay = ({ children, onClose, onConfirm }: ModalOverlayProps) => {
 
 
 export const Modal = ({
+  modalTitle,
   children,
   onClose,
-  onConfirm,
   portalElement,
+  mainContentClassName,
   isOpen = false }: ModalProps) => {
 
   const toggleModal = () => {
@@ -57,7 +65,10 @@ export const Modal = ({
         {ReactDOM.createPortal(
           <>
             <Backdrop onClose={toggleModal} />
-            <ModalOverlay onConfirm={onConfirm} onClose={toggleModal}>{children}</ModalOverlay>
+            <ModalOverlay
+              modalTitle={modalTitle}
+              mainContentClassName={mainContentClassName}
+              onClose={toggleModal}>{children}</ModalOverlay>
           </>,
           portalElement
         )}
