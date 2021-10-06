@@ -8,9 +8,9 @@ export type ModalProps = {
   children: JSX.Element | JSX.Element[] | string,
   isOpen: boolean,
   mainContentClassName?: string,
-  onClose: any,
+  onClose: React.MouseEventHandler,
   modalTitle: string,
-  portalElement: any,
+  portalElement: HTMLElement,
 }
 type ModalOverlayProps = {
   children: JSX.Element | JSX.Element[] | string,
@@ -20,7 +20,7 @@ type ModalOverlayProps = {
 }
 
 type BackdropProps = {
-  onClose: any,
+  onClose: React.MouseEventHandler,
 }
 
 const Backdrop = ({ onClose }: BackdropProps) => {
@@ -55,8 +55,8 @@ export const Modal = ({
   mainContentClassName,
   isOpen = false }: ModalProps) => {
 
-  const toggleModal = () => {
-    onClose();
+  const toggleModal = (event) => {
+    onClose(event);
   }
 
   if (isOpen) {

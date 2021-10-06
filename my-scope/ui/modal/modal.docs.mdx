@@ -11,7 +11,7 @@ A basic div that renders some text
 
 ### Component usage
 ```js
-<Modal modalTitle={'Example modal'} portalElement={portalElement} onClose={toggleExternally} isOpen={openExternally} >
+<Modal modalTitle={'Example modal'} portalElement={portalElement} onClose={setToggleModal} isOpen={toggleModal} >
       <h1>Hi From modal</h1>
       <Button onClick={onConfirm}><span>Confirm</span></Button>
 </Modal>
@@ -21,7 +21,7 @@ A basic div that renders some text
 
 Modify the text to see it change live:
 ```js live
-<Modal modalTitle={'Example modal'} portalElement={portalElement} onClose={toggleExternally} isOpen={openExternally} >
+<Modal modalTitle={'Example modal'} portalElement={portalElement} onClose={setToggleModal} isOpen={toggleModal} >
       <h1>Hi From modal</h1>
       <Button onClick={onConfirm}><span>Confirm</span></Button>
 </Modal>

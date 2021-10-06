@@ -23,7 +23,7 @@
     },
     "ui/modal": {
         "scope": "reuse-react-components.experimenting",
-        "version": "0.0.2",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "my-scope/ui/modal"
     },
