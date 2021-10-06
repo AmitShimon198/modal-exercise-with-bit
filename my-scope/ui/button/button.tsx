@@ -4,11 +4,12 @@ export type ButtonProps = {
   children: JSX.Element | JSX.Element[] | string,
   className?: string,
   onClick: React.MouseEventHandler,
+  disabled?: boolean;
 };
 
-export function Button({ className, children, onClick }: ButtonProps) {
+export function Button({ disabled = false, className, children, onClick }: ButtonProps) {
   return (
-    <button onClick={onClick} className={`${classes.button} ${className}`}>
+    <button disabled={disabled} onClick={onClick} className={`${classes.button} ${className}`}>
       {children}
     </button>
   );
