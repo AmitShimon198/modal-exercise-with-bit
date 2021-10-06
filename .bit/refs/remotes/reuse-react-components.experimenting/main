@@ -4,7 +4,7 @@
       "scope": "reuse-react-components.experimenting",
       "name": "ui/button"
     },
-    "head": "6efeeb46a9e5ae1a6261e6d4859254492ba1b92c"
+    "head": "685a778532ca7cd998431a196be68d10fa6698b5"
   },
   {
     "id": {
@@ -18,6 +18,6 @@
       "scope": "reuse-react-components.experimenting",
       "name": "ui/modal"
     },
-    "head": "03d8fe124ff06385276d5f3469bb0fd73c9568fd"
+    "head": "fae352285858295a34a89ba4bfc62ae0be7452fe"
   }
 ]

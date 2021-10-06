@@ -11,7 +11,7 @@
 {
     "ui/button": {
         "scope": "reuse-react-components.experimenting",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "my-scope/ui/button"
     },
@@ -23,7 +23,7 @@
     },
     "ui/modal": {
         "scope": "reuse-react-components.experimenting",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "my-scope/ui/modal"
     },
