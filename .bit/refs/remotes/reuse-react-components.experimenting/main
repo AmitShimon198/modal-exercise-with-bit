@@ -25,14 +25,14 @@
       "scope": "reuse-react-components.experimenting",
       "name": "ui/card"
     },
-    "head": "78fc789ae8eb773958480c2b01dcac8441810d80"
+    "head": "23a55e478b8881d85659982d8eda6b2fcffa83f5"
   },
   {
     "id": {
       "scope": "reuse-react-components.experimenting",
       "name": "ui/header"
     },
-    "head": "171e284371f786968758c38c20ee6e131242f08a"
+    "head": "0385fc1d43cf0d842ed890105852aef93d3ebac6"
   },
   {
     "id": {
@@ -46,7 +46,7 @@
       "scope": "reuse-react-components.experimenting",
       "name": "ui/text"
     },
-    "head": "ec18219b5eba340b1db02d9ec36d47852861e1e0"
+    "head": "e5fda94bf48173864053f7cc41f77db0f46b7e12"
   },
   {
     "id": {

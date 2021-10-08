@@ -17,13 +17,13 @@
     },
     "ui/card": {
         "scope": "reuse-react-components.experimenting",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "experimenting/ui/card"
     },
     "ui/header": {
         "scope": "reuse-react-components.experimenting",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "experimenting/ui/header"
     },
@@ -53,7 +53,7 @@
     },
     "ui/text": {
         "scope": "reuse-react-components.experimenting",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "experimenting/ui/text"
     },

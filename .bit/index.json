@@ -67,14 +67,6 @@
     {
       "id": {
         "scope": "reuse-react-components.experimenting",
-        "name": "ui/header"
-      },
-      "isSymlink": false,
-      "hash": "6a93d5ac72ce97d70646b931d49df7256b801592"
-    },
-    {
-      "id": {
-        "scope": "reuse-react-components.experimenting",
         "name": "ui/main-content"
       },
       "isSymlink": false,
@@ -111,6 +103,14 @@
       },
       "isSymlink": false,
       "hash": "dd6feadc3f9273ac0731acafe937b5e57ec69bb5"
+    },
+    {
+      "id": {
+        "scope": "reuse-react-components.experimenting",
+        "name": "ui/header"
+      },
+      "isSymlink": false,
+      "hash": "6a93d5ac72ce97d70646b931d49df7256b801592"
     },
     {
       "id": {
