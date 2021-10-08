@@ -11,16 +11,16 @@ A basic div that renders some text
 
 ### Component usage
 ```js
-  <button onClick={onClick} className={`${classes.button} ${className}`}>
+  <Button onClick={() => alert('hi from clicked button')} >
     <span>Click Me</span>
-  </button>
+  </Button>
 ```
 
 ### Using props to customize the text
 
 Modify the text to see it change live:
 ```js live
- <button onClick={onClick} className={`${classes.button} ${className}`}>
+<Button onClick={() => alert('hi from clicked button')} >
     <span>Click Me</span>
-  </button>
+</Button>
 ```

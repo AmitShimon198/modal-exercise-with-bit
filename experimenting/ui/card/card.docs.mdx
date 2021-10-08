@@ -1,0 +1,47 @@
+---
+description: 'A Card component.'
+labels: ['label1', 'label2', 'label3']
+---
+
+import { Card } from './card';
+import { Button } from '@reuse-react-components/experimenting.ui.button';
+import { Header } from '@reuse-react-components/experimenting.ui.header';
+import { Hr } from '@reuse-react-components/experimenting.ui.hr';
+import { MainContent } from '@reuse-react-components/experimenting.ui.main-content';
+import classes from './card.module.css';
+
+## React Component for rendering text
+
+A basic div that renders some text
+
+### Component usage
+```js
+  <Card >
+    <Header className={classes.fancyCardHeader}>
+      Example Card
+    </Header>
+    <Hr/>
+    <MainContent className={classes.fancyCardMainContent}>
+      Main Content
+    </MainContent>
+    <Button onClick={()=>alert('OK')}><span>Ok</span></Button>
+    <Button onClick={()=>alert('Cancel')}><span>Cancel</span></Button>
+  </Card>
+```
+
+### Using props to customize the text
+
+Modify the text to see it change live:
+```js live
+  <Card >
+    <Header className={classes.fancyCardHeader}>
+      Example Card
+    </Header>
+    <Hr/>
+    <MainContent className={classes.fancyCardMainContent}>
+      Main Content
+    </MainContent>
+   <Button onClick={()=>alert('OK')}><span>Ok</span></Button>
+    <Button onClick={()=>alert('Cancel')}><span>Cancel</span></Button>
+  </Card>
+```

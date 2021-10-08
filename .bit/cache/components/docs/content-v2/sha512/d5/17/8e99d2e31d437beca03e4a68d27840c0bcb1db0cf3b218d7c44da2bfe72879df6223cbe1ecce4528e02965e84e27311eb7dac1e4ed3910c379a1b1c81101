@@ -1,0 +1,1 @@
+[{"filePath":"header.tsx","name":"Header","description":"","properties":[{"name":"text","description":"","required":true,"type":"string"},{"name":"className","description":"","required":true,"type":"string"}],"access":"public","methods":[],"args":[],"examples":[]}]

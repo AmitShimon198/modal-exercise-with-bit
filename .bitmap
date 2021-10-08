@@ -15,11 +15,29 @@
         "mainFile": "index.ts",
         "rootDir": "my-scope/ui/button"
     },
+    "ui/card": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "experimenting/ui/card"
+    },
+    "ui/header": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "experimenting/ui/header"
+    },
     "ui/hr": {
         "scope": "reuse-react-components.experimenting",
         "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "my-scope/ui/hr"
+    },
+    "ui/main-content": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "experimenting/ui/main-content"
     },
     "ui/modal": {
         "scope": "reuse-react-components.experimenting",

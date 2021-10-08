@@ -3,7 +3,12 @@ button {
     cursor: pointer;
     background-color: transparent;
     border: 1px solid #8a2b06;
-    padding: 0.5rem 2rem;
+    padding: 0.5vh 1vh;
     border-radius: 25px;
-    margin-left: 1rem;
+    font-size: 12px;
+    width: 15vh;
+    min-width: 0;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
 }

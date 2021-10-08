@@ -1,0 +1,1 @@
+[{"filePath":"main-content.tsx","name":"MainContent","description":"","properties":[{"name":"children","description":"","required":true,"type":"JSX.Element | JSX.Element[] | string"},{"name":"className","description":"","required":false,"type":"string","defaultValue":{"value":"''","computed":false}}],"access":"public","methods":[],"args":[],"examples":[]}]

@@ -1,0 +1,1 @@
+[{"filePath":"main-content.tsx","name":"MainContent","description":"","properties":[{"name":"text","description":"a text to be rendered in the component.","required":true,"type":"string"}],"access":"public","methods":[],"args":[],"examples":[]}]
