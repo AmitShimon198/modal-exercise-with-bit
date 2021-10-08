@@ -99,14 +99,6 @@
     {
       "id": {
         "scope": "reuse-react-components.experimenting",
-        "name": "ui/modal"
-      },
-      "isSymlink": false,
-      "hash": "dd6feadc3f9273ac0731acafe937b5e57ec69bb5"
-    },
-    {
-      "id": {
-        "scope": "reuse-react-components.experimenting",
         "name": "ui/header"
       },
       "isSymlink": false,
@@ -119,6 +111,14 @@
       },
       "isSymlink": false,
       "hash": "712a07e18faed4c826de4407aa75843bfdc1b1eb"
+    },
+    {
+      "id": {
+        "scope": "reuse-react-components.experimenting",
+        "name": "ui/modal"
+      },
+      "isSymlink": false,
+      "hash": "dd6feadc3f9273ac0731acafe937b5e57ec69bb5"
     },
     {
       "id": {

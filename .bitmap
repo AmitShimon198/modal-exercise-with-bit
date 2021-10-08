@@ -17,7 +17,7 @@
     },
     "ui/card": {
         "scope": "reuse-react-components.experimenting",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "experimenting/ui/card"
     },
@@ -41,7 +41,7 @@
     },
     "ui/modal": {
         "scope": "reuse-react-components.experimenting",
-        "version": "0.0.8",
+        "version": "0.0.9",
         "mainFile": "index.ts",
         "rootDir": "my-scope/ui/modal"
     },

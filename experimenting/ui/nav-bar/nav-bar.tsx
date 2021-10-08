@@ -1,16 +1,22 @@
+import classes from "./navBar.module.css";
 import React from 'react';
 
 export type NavBarProps = {
-  /**
-   * a text to be rendered in the component.
-   */
-  text: string
+  children: JSX.Element | JSX.Element[] | string;
+  logo: string;
+  styles: NavBarStyleProps
 };
 
-export function NavBar({ text }: NavBarProps) {
+export type NavBarStyleProps = {
+  navBarClassName: string;
+  logoClassName: string;
+}
+
+export function NavBar({ children, logo = 'Logo', styles }: NavBarProps) {
   return (
-    <div>
-      {text}
+    <div className={`${classes.container} ${styles.navBarClassName}`}>
+      <div className={`${classes.logo} ${styles.logoClassName}`}>{logo}</div>
+      {children}
     </div>
   );
 }
