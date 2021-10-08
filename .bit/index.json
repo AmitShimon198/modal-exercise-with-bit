@@ -34,6 +34,70 @@
     },
     {
       "id": {
+        "scope": null,
+        "name": "ui/card"
+      },
+      "isSymlink": true,
+      "hash": "ed61e861cd457fc2f8bbfe214c116b7a575b28bb"
+    },
+    {
+      "id": {
+        "scope": null,
+        "name": "ui/header"
+      },
+      "isSymlink": true,
+      "hash": "b6fc7a33c5a7af8fe8177ea82b7af694a441f1b8"
+    },
+    {
+      "id": {
+        "scope": null,
+        "name": "ui/main-content"
+      },
+      "isSymlink": true,
+      "hash": "fc9e2de07d3d795d8270cc87c90418aede756b7b"
+    },
+    {
+      "id": {
+        "scope": null,
+        "name": "ui/text"
+      },
+      "isSymlink": true,
+      "hash": "42d2b7f4b8970d42d80ae2636dcdbb70f494f4d6"
+    },
+    {
+      "id": {
+        "scope": "reuse-react-components.experimenting",
+        "name": "ui/header"
+      },
+      "isSymlink": false,
+      "hash": "6a93d5ac72ce97d70646b931d49df7256b801592"
+    },
+    {
+      "id": {
+        "scope": "reuse-react-components.experimenting",
+        "name": "ui/main-content"
+      },
+      "isSymlink": false,
+      "hash": "a46ef4d47d515cb67a5325fb7b0a02f8732d250e"
+    },
+    {
+      "id": {
+        "scope": null,
+        "name": "ui/nav-bar"
+      },
+      "isSymlink": true,
+      "hash": "2ce94cfee73a0fac4e70322018109e6aa97a4483"
+    },
+    {
+      "id": {
+        "scope": "reuse-react-components.experimenting",
+        "name": "ui/nav-bar"
+      },
+      "isSymlink": false,
+      "hash": "0e6c871ffc9fb30fea25fe576e0df10a9ca217fd"
+    },
+    {
+      "id": {
         "scope": "reuse-react-components.experimenting",
         "name": "ui/button"
       },
@@ -47,6 +111,22 @@
       },
       "isSymlink": false,
       "hash": "dd6feadc3f9273ac0731acafe937b5e57ec69bb5"
+    },
+    {
+      "id": {
+        "scope": "reuse-react-components.experimenting",
+        "name": "ui/text"
+      },
+      "isSymlink": false,
+      "hash": "712a07e18faed4c826de4407aa75843bfdc1b1eb"
+    },
+    {
+      "id": {
+        "scope": "reuse-react-components.experimenting",
+        "name": "ui/card"
+      },
+      "isSymlink": false,
+      "hash": "7e9877896a11496b567ae237c7d84142410b5862"
     }
   ],
   "lanes": []

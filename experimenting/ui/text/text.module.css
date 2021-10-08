@@ -1,0 +1,13 @@
+.container{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.dark{
+    background: black;
+    color: cornsilk;
+}
+.bright{
+    background: cornsilk;
+    color: black;
+}

@@ -4,6 +4,6 @@ import { BasicMainContent } from './main-content.composition';
 
 it('should render with the correct text', () => {
   const { getByText } = render(<BasicMainContent />);
-  const rendered = getByText('hello from MainContent');
+  const rendered = getByText('Hi From Main');
   expect(rendered).toBeTruthy();
 });

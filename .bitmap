@@ -11,19 +11,19 @@
 {
     "ui/button": {
         "scope": "reuse-react-components.experimenting",
-        "version": "0.0.4",
+        "version": "0.0.6",
         "mainFile": "index.ts",
         "rootDir": "my-scope/ui/button"
     },
     "ui/card": {
-        "scope": "",
-        "version": "",
+        "scope": "reuse-react-components.experimenting",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "experimenting/ui/card"
     },
     "ui/header": {
-        "scope": "",
-        "version": "",
+        "scope": "reuse-react-components.experimenting",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "experimenting/ui/header"
     },
@@ -34,16 +34,28 @@
         "rootDir": "my-scope/ui/hr"
     },
     "ui/main-content": {
-        "scope": "",
-        "version": "",
+        "scope": "reuse-react-components.experimenting",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "experimenting/ui/main-content"
     },
     "ui/modal": {
         "scope": "reuse-react-components.experimenting",
-        "version": "0.0.6",
+        "version": "0.0.8",
         "mainFile": "index.ts",
         "rootDir": "my-scope/ui/modal"
+    },
+    "ui/nav-bar": {
+        "scope": "reuse-react-components.experimenting",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "experimenting/ui/nav-bar"
+    },
+    "ui/text": {
+        "scope": "reuse-react-components.experimenting",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "experimenting/ui/text"
     },
     "$schema-version": "14.9.0"
 }

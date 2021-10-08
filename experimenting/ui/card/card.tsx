@@ -5,7 +5,7 @@ export type CardProps = {
   containerClassName?: string;
 };
 
-export function Card({ children, containerClassName }: CardProps) {
+export function Card({ children, containerClassName = '' }: CardProps) {
   return (
     <div className={`${classes.container} ${containerClassName}`}>
       {children}

@@ -5,9 +5,10 @@ import { Header } from '@reuse-react-components/experimenting.ui.header';
 import { Hr } from '@reuse-react-components/experimenting.ui.hr';
 import { MainContent } from '@reuse-react-components/experimenting.ui.main-content';
 import classes from './card.module.css';
+import { Text } from '@reuse-react-components/experimenting.ui.text';
 
-export const CardContainer = () => (
-  <Card>hello from Card</Card>
+export const CardContainer = ({ children }) => (
+  <Card>{children}</Card>
 );
 
 export const FancyCard = ({ onOkClickHandler, onCancelClickHandler }) => (
@@ -15,9 +16,9 @@ export const FancyCard = ({ onOkClickHandler, onCancelClickHandler }) => (
     <Header className={classes.fancyCardHeader}>
       Example Card
     </Header>
-    <Hr/>
+    <Hr />
     <MainContent className={classes.fancyCardMainContent}>
-      Main Content
+      <Text>Main Content</Text>
     </MainContent>
     <Button onClick={onOkClickHandler}><span>Ok</span></Button>
     <Button onClick={onCancelClickHandler}><span>Cancel</span></Button>

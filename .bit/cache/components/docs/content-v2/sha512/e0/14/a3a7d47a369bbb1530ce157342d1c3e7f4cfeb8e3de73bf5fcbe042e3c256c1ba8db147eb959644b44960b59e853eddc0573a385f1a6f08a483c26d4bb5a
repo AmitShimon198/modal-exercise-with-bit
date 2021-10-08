@@ -1,0 +1,1 @@
+[{"filePath":"text.tsx","name":"Text","description":"","properties":[{"name":"text","description":"","required":true,"type":"string"},{"name":"className","description":"","required":true,"type":"string"},{"name":"theme","description":"","required":true,"type":"'bright' | 'dark'"}],"access":"public","methods":[],"args":[],"examples":[]}]

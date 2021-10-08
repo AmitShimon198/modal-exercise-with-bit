@@ -1,0 +1,1 @@
+[{"filePath":"card.tsx","name":"Card","description":"","properties":[{"name":"children","description":"","required":true,"type":"JSX.Element | JSX.Element[] | string"},{"name":"containerClassName","description":"","required":false,"type":"string","defaultValue":{"value":"''","computed":false}}],"access":"public","methods":[],"args":[],"examples":[]}]
